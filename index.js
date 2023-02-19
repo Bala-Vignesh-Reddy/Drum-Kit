@@ -67,14 +67,8 @@ function buttonAnimation(currentKey){
     activeButton.classList.add("pressed");
     setTimeout(() => {
         activeButton.classList.remove("pressed");
-    }, 10   0);
+    }, 100);
 
 }
 
 
-
-document.querySelector("#title").addEventListener("click", function (){
-    let jaiShreeRamAudio = new Audio("sounds/jai-shree-ram.mp3");
-    jaiShreeRamAudio.play();
-    alert("It's just for joy!!");
-});
