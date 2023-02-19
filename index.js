@@ -72,3 +72,12 @@ function buttonAnimation(currentKey){
 }
 
 
+<<<<<<< HEAD
+=======
+
+document.querySelector("#title").addEventListener("click", function (){
+    let jaiShreeRamAudio = new Audio("sounds/jai-shree-ram.mp3");
+    jaiShreeRamAudio.play();
+    alert("It's just for joy!!");
+});
+>>>>>>> a0268c66cae8924d739bc83c2b77c99f8b7ff4e8
